@@ -1,0 +1,74 @@
+.guitar{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.content{
+    padding: 1rem;
+}
+.content h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+.description{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    font-size: 1.8rem;
+}
+.price{
+    color: var(--primary);
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 900;
+}
+.link{
+    margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: background-color .3s ease;
+}
+.link:hover{
+    background-color: var(--primary);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.form label{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.form select{
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+}
+.form input[type="submit"]{
+    margin-top: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 1.4rem;
+    border: none;
+    font-weight: 700;  
+    transition: background-color .3s ease; 
+}
+.form input[type="submit"]:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+}
